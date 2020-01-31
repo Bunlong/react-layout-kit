@@ -21,9 +21,9 @@
     "type": "git",
     "url": "git+https://github.com/Bunlong/react-layout-kit.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["react", "layout", "react-layout", "react-layout-kit", "css"],
+  "author": "Bunlong <bunlong.van@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Bunlong/react-layout-kit/issues"
   },
