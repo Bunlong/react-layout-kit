@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   mode: "production",
 
@@ -36,5 +38,10 @@ module.exports = {
   externals: {
     "react": "React",
     "react-dom": "ReactDOM"
+  },
+  entry: "./src/index.tsx",
+  output: {
+    filename: "index.js",
+    path: path.resolve(__dirname, "dist"),
   }
 };

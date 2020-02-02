@@ -2,12 +2,13 @@
   "name": "react-layout-kit",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@types/react": "^16.9.19",
     "source-map-loader": "^0.2.4",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",
@@ -15,13 +16,20 @@
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bunlong/react-layout-kit.git"
   },
-  "keywords": ["react", "layout", "react-layout", "react-layout-kit", "css"],
+  "keywords": [
+    "react",
+    "layout",
+    "react-layout",
+    "react-layout-kit",
+    "css"
+  ],
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
   "bugs": {
