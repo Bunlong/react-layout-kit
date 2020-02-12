@@ -1,3 +1,6 @@
 /node_modules
 /dist
 package-lock.json
+/www/node_modules
+/www/.next
+/www/package-lock.json

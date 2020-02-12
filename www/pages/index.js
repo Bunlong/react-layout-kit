@@ -1,12 +1,11 @@
 import React from 'react'
-import ABC from 'react-layout-kit'
+import Index from 'react-layout-kit'
 
-export default class Index extends React.Component {
+export default class Test extends React.Component {
   render() {
-    console.log(ABC)
     return (
       <>
-        Hello
+        <Index />
       </>
     )
   }

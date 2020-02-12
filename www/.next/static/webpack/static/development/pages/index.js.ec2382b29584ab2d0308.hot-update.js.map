@@ -1,1 +1,0 @@
-{"version":3,"file":"static/webpack/static/development/pages/index.js.ec2382b29584ab2d0308.hot-update.js","sources":["webpack:///./pages/index.js"],"sourcesContent":["import ABC from 'react-layout-kit'\n\nexport default function Index() {\n  return (\n    <>\n      {ABC}\n    </>\n  );\n}\n"],"mappings":";;;;;;;;;;;;;;;;;;AAAA;AAEA;AACA;AAKA;;;;A","sourceRoot":""}
