@@ -1,12 +1,16 @@
-import React from 'react'
-import Index from 'react-layout-kit'
+import React from 'react';
+import { Layout, CardLayout } from 'react-layout-kit';
 
-export default class Test extends React.Component {
+export default class Index extends React.Component {
   render() {
     return (
       <>
-        <Index />
+        <Layout>
+          <CardLayout>
+            Hello
+          </CardLayout>
+        </Layout>
       </>
-    )
+    );
   }
 }

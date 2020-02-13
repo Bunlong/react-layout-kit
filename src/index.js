@@ -1,13 +1,2 @@
-import React from 'react'
-
-class Index extends React.Component {
-  render() {
-    return (
-      <>
-        Hello
-      </>
-    )
-  }
-}
-
-export default Index
+export { default as Layout } from './layout/Layout';
+export { default as CardLayout } from './layout/CardLayout';
