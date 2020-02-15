@@ -2,10 +2,12 @@ var path = require("path");
 
 module.exports = {
   mode: "production",
-  entry: "./src/index.js",
+  entry: {
+    index: './src/index.js'
+  },
   output: {
+    filename: "[name].js",
     path: path.resolve("dist"),
-    filename: "index.js",
     libraryTarget: "commonjs2"
   },
   module: {

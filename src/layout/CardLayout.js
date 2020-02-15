@@ -1,7 +1,11 @@
 import React from 'react';
 
-const CardLayout = () => {
-  return "CardLayout";
+const CardLayout = (props) => {
+  return (
+    <div>
+      <p>Hello</p>
+    </div>
+  );
 }
 
 export default CardLayout;

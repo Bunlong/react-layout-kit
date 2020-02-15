@@ -1,7 +1,12 @@
 import React from 'react';
+import test from '../theme/DefaultTheme';
 
 const Layout = (props) => {
-  return props.children;
+  return (
+    <div style={test.test}>
+      {props.children}
+    </div>
+  );
 }
 
 export default Layout;
