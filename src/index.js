@@ -1,2 +1,1 @@
-export { default as Layout } from './layout/Layout';
-export { default as CardLayout } from './layout/CardLayout';
+export { default as FlexboxLayout } from './layouts/FlexboxLayout';

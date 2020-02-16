@@ -1,20 +1,31 @@
 import React from 'react';
-import { Layout, CardLayout } from 'react-layout-kit';
-
-import 'react-layout-kit/initialize';
+import { FlexboxLayout } from 'react-layout-kit';
 
 export default class Index extends React.Component {
   render() {
     return (
       <>
-        <Layout>
-          <CardLayout>
+        <FlexboxLayout
+          display='inline-flex'
+          flexDirection='row-reverse'
+          flexWrap='wrap'
+          justifyContent='space-between'
+          alignItems='flex-start'
+          alignContent='start'
+        >
+          <div>
             Hello
-          </CardLayout>
-          <CardLayout>
+          </div>
+          <div>
             Hello
-          </CardLayout>
-        </Layout>
+          </div>
+          <div>
+            Hello
+          </div>
+          <div>
+            Hello
+          </div>
+        </FlexboxLayout>
       </>
     );
   }
