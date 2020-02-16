@@ -1,6 +1,6 @@
 import React from 'react';
 
-import flexboxLayoutContainerStyle from '../styles/FlexboxLayoutContainerStyle';
+import flexboxLayoutContainerStyle from '../styles/flexboxLayoutContainerStyle';
 import toKey from '../utils/toKey';
 
 const FlexboxLayout = (props) => {
@@ -9,7 +9,6 @@ const FlexboxLayout = (props) => {
 
   for (const key in props) {
     if (key !== 'children') {
-      console.log(`${key}${toKey(props[key])}`);
       styles = Object.assign({}, styles, flexboxLayoutContainerStyle[`${key}${toKey(props[key])}`]);
     }
   }

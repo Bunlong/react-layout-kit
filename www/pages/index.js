@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlexboxLayout } from 'react-layout-kit';
+import { FlexboxLayout, FlexboxItem } from 'react-layout-kit';
 
 export default class Index extends React.Component {
   render() {
@@ -13,18 +13,24 @@ export default class Index extends React.Component {
           alignItems='flex-start'
           alignContent='start'
         >
-          <div>
+          <FlexboxItem
+            order={2}
+            flexGrow={10}
+            flexShrink={2}
+            flexBasis={10}
+            alignSelf='auto'
+          >
+            Hi
+          </FlexboxItem>
+          <FlexboxItem
+            order={1}
+            flexGrow={10}
+            flexShrink={2}
+            flexBasis={10}
+            alignSelf='flex-start'
+          >
             Hello
-          </div>
-          <div>
-            Hello
-          </div>
-          <div>
-            Hello
-          </div>
-          <div>
-            Hello
-          </div>
+          </FlexboxItem>
         </FlexboxLayout>
       </>
     );
